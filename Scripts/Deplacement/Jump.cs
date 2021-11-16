@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Jump : MonoBehaviour
 {
-		public Vector3 JumpForce = new Vector3(0, 180, 0);
+		public Vector3 JumpForce = new Vector3(0, 220, 0);
 
 		public bool grounded = true;
 
