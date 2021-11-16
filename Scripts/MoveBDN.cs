@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Move : MonoBehaviour
+public class MoveBDN : MonoBehaviour
 
 {
     public Vector3 Deplacement = new Vector3 (0, 1, 0) ;
