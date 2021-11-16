@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 1535862151628752252}
   - component: {fileID: 1535862151628752253}
   - component: {fileID: 1535862151628752249}
-  - component: {fileID: 1535862151628752248}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -106,7 +105,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1535862151628752243}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ef890c68f7ce744938832f01ace1893d, type: 3}
+  m_Script: {fileID: 11500000, guid: 264f179912d0843079f55da961ea28c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   RespondTo:
@@ -127,30 +126,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  CollisionStay:
-    m_PersistentCalls:
-      m_Calls: []
-  CollisionLeave:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &1535862151628752248
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1535862151628752243}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ef890c68f7ce744938832f01ace1893d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  RespondTo:
-    serializedVersion: 2
-    m_Bits: 64
-  CollisionEnter:
-    m_PersistentCalls:
-      m_Calls:
       - m_Target: {fileID: 1535862151689687153}
         m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
         m_MethodName: Play
@@ -158,7 +133,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 20
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -4987,7 +4962,7 @@ GameObject:
   - component: {fileID: 1535862151828882349}
   - component: {fileID: 1535862151828882338}
   - component: {fileID: 1535862151828882339}
-  - component: {fileID: 8875442829615598221}
+  - component: {fileID: 3560967015440871924}
   m_Layer: 0
   m_Name: BouleDeNeige
   m_TagString: Untagged
@@ -5049,7 +5024,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1535862151828882336}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ef890c68f7ce744938832f01ace1893d, type: 3}
+  m_Script: {fileID: 11500000, guid: 264f179912d0843079f55da961ea28c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   RespondTo:
@@ -5059,24 +5034,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1535862151628752243}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1535862151689687153}
-        m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
-        m_MethodName: Play
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgumentAssemblyTypeName: 
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -5088,7 +5051,7 @@ MonoBehaviour:
   CollisionLeave:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &8875442829615598221
+--- !u!114 &3560967015440871924
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5097,11 +5060,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1535862151828882336}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d5e1e545ce0246b39b02963f85acbde, type: 3}
+  m_Script: {fileID: 11500000, guid: 0c91a3c286d9647eb9c93ef8a8d329a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Deplacement: {x: 0, y: 0, z: 1}
-  Vitesse: 15
+  Vitesse: 0
 --- !u!1 &1535862151931382460
 GameObject:
   m_ObjectHideFlags: 0
